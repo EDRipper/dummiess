@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Timeline Tangles</title>
+      <script type="module" src="./dist/bundle.js"></script>
+  </head>
+  <body>
+    <h1>Timeline Tangles</h1>
+    <div id="app"></div>
+
+ <!-- ts testing to check if the index is able to product the correct result -->
+  <div id="idontliketogetdiddled">
+      <input
+        type="text"
+        id="taskTitleInput"
+        placeholder="this is the title of your task" />
+    </div>
+    <div>
+      <textarea
+        id="taskDocumentInput"
+        placeholder="this is for the description"
+        rows="4"
+        cols="40"></textarea>
+    </div>
+    <div>
+      <button id="taskCreateButton">Create Task</button>
+    </div>
+
+    <!-- where the task list will be made -->
+    <div id="typescriptSection"></div>
+
+    <!-- loads the typescript -->
+  </body>
+  </html>
