@@ -4,14 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Timeline Tangles</title>
-      <script type="module" src="./dist/bundle.js"></script>
+    <!-- load compiled JavaScript -->
+    <script src="./main.js" defer></script>
   </head>
   <body>
     <h1>Timeline Tangles</h1>
     <div id="app"></div>
 
- <!-- ts testing to check if the index is able to product the correct result -->
-  <div id="idontliketogetdiddled">
+
+    <div>
       <input
         type="text"
         id="taskTitleInput"
@@ -28,9 +29,7 @@
       <button id="taskCreateButton">Create Task</button>
     </div>
 
-    <!-- where the task list will be made -->
-    <div id="typescriptSection"></div>
 
-    <!-- loads the typescript -->
+    <div id="typescriptSection"></div>
   </body>
-  </html>
+</html>
